@@ -1,0 +1,24 @@
+.mainDivHeader{
+    margin-top: 10px;
+   display: relative;
+   height: 100px;
+   
+}
+
+.mainLogo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 30%; 
+}
+
+
+.aboutMe{
+    position: absolute;
+    height: 20px;
+    text-decoration: none;
+    color: #0d91b3;
+    right: 30%;
+    top: 10%;
+
+}
