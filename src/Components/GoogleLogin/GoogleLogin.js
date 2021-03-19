@@ -11,7 +11,7 @@ const responseGoogle = (response) => {
     return(
         <div>
             <GoogleLogin
-            clientId="658977310896-knrl3gka66fldh83dao2rhgbblmd4un9.apps.googleusercontent.com"
+            clientId="996402377915-tjfll1oulvn89142gcrjc2ffiad5onm2.apps.googleusercontent.com"
             buttonText="Login"
             onSuccess={responseGoogle}
             onFailure={responseGoogle}
