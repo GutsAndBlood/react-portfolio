@@ -1,0 +1,35 @@
+.callMeBox{
+    margin-top: 150px;
+    background-color: #005f6c;
+    color: white;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 5px;
+    margin-bottom: -30px;
+    z-index: 1;
+}
+
+.callMeFlex{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.buttonTalk{
+    border: 3px solid #3f996c;
+    height: 30px;
+    width: 100px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    color: white;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+  
+.buttonTalk:hover {
+    background-color: #3f996c; /* Green */
+    color: white;
+  }

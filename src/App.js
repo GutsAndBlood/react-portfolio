@@ -1,14 +1,10 @@
 import './App.css';
-import LoginByGoogle from './Components/GoogleLogin/GoogleLogin';
-import Header from './Components/Header/Header';
-import Home from './Components/Home/Home';
+import HomePage from './Container/HomePage/HomePage';
 
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Home/>
-        {/* <LoginByGoogle/> */}
+        <HomePage/>
     </div>
   );
 }

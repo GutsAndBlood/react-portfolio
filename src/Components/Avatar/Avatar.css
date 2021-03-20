@@ -1,0 +1,10 @@
+.homeMainDiv{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 150px;   
+}
+
+.homeMainDiv h1{
+    font-size: 36px;
+}
