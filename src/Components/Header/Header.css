@@ -9,16 +9,27 @@
     position: absolute;
     height: 100px;
     width: 100px;
-    left: 30%; 
+    left: 22.5%; 
 }
 
 
-.aboutMe{
+.aboutMeHeader{
     position: absolute;
     height: 20px;
     text-decoration: none;
     color: #0d91b3;
-    right: 30%;
+    right: 25%;
+    top: 10%;
+
+}
+
+
+.contact{
+    position: absolute;
+    height: 20px;
+    text-decoration: none;
+    color: #0d91b3;
+    right: 17.5%;
     top: 10%;
 
 }

@@ -1,0 +1,75 @@
+.homeMainDiv{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 150px;   
+}
+
+.homeMainDiv h1{
+    font-size: 36px;
+}
+
+.desktop{
+    height: 400px;
+}
+
+.aboutMe{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.aboutMe img{
+    height: 350px;
+}
+
+.desciption{
+    height: 350px;
+    background: linear-gradient(to right, #79d8e5, #5de099);
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desciption h3{
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.desciption p{
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.desciptionSkillsMainDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.desciptionSkills{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    width: 70%;
+    height: 300px;
+    margin-top: -140px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #d1d5da;
+    padding: 10px;
+    
+}
+
+.desciptionSkills img{
+    height: 60px;
+}
+
+.desciptionSkillsItems{
+    width: 33.33%;
+}
+.languageAndTools{
+    color: #52c0e9;
+    font-size: 15px;
+}
