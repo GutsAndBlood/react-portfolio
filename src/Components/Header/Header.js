@@ -3,15 +3,15 @@ import Logo from '../../Images/logo.png'
 import './Header.css'
 
 
-const Header = () => { 
+const Header = (props) => { 
 
 
     return (
         <header className="mainDivHeader">
            <a href='/'> <img src={Logo} className='mainLogo' alt='logo'/></a> 
 
-           <a href="#aboutMeNav" className='aboutMeHeader'>About me</a> 
-           <a href="/#" className='contact'>Contact</a> 
+           <a href={props.AboutMe} className='aboutMeHeader'>About me</a> 
+           <a href="/contact" className='contact'>Contact</a> 
         </header>
     )
 

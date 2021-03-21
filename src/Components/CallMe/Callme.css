@@ -21,7 +21,7 @@
 .buttonTalk{
     border: 3px solid #3f996c;
     height: 30px;
-    width: 100px;
+    width: 120px;
     background-color: Transparent;
     background-repeat:no-repeat;
     color: white;
@@ -30,6 +30,7 @@
 }
   
 .buttonTalk:hover {
+    transition: 0.4s;
     background-color: #3f996c; /* Green */
     color: white;
   }

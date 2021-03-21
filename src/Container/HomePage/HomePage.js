@@ -10,7 +10,7 @@ const HomePage = () => {
 
     return (
         <div>
-            <Header/>
+            <Header AboutMe={'#aboutMeNav'}/>
             <AvatarCom/>
             <Home/>
             <Callme/>
