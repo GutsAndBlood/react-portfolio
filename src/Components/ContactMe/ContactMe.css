@@ -1,47 +1,60 @@
-.divForm{
-    display: grid;
-    margin-bottom: 100px;
-}
-  
 .loginForm{
-    font-size: 14px;
     background-color:#f6f8fa;
-    width: 280px;
-    height:220px;
-    border-radius: 5px;
     border: 1px solid #eaecef;
+    width: 400px;
+    height:300px;
+    border-radius: 5px;
     padding: 20px; 
-    
     margin-left: auto;
-    margin-right: auto;
-    
-     
+    margin-right: auto; 
+    margin-bottom: 150px;  
+    color: #4b4b4b;
+    font-size: 18px;
 }
-  
-#loginLabel1{
-    position: relative;
-    margin-right: 75px;
-}
-  
-  #loginLabel2{
-    position: relative;   
+
+.contactMeh2 h2{
+    font-weight: 100;
 }
     
 
 .loginForm input{
-font-family: 'Roboto', sans-serif;
-font-weight:400;
-font-size: 14px;
-position: relative;
-width: 260px;
-height: 30px;
-border: 1px solid #eaecef;
-padding: 5px 12px;
-border-radius: 8px;
-margin-top: 10px;
-margin-bottom: 10px;
-
+    width: 150px;
+    height: 25px;
+    border: 1px solid #eaecef;
+    padding: 5px 12px;
+    border-radius: 8px; 
 }
+
+.loginForm label{  
+    padding: 5px 12px; 
+}
+
+.contactMeLabel{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.contactMeInput{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    resize:none;
+    border-radius: 6px;
+    border:1px solid #eaecef;
+}
+
+textarea:focus {
+    outline: none !important;
+    border:1px solid rgb(0, 85, 197);
+    box-shadow: 0 0 10px #9ab2cc;
+}
+
 
 input:focus {
 outline: none !important;
@@ -49,32 +62,24 @@ outline: none !important;
     box-shadow: 0 0 10px #9ab2cc;
 }
 
-.passw{
-bottom:20px;
-}
 
 .loginForm button{
-position: relative;
-bottom: 5px;
-width: 286px;
-height: 35px;
-background-color: #28a745;
-color: white;
-font-family: 'Roboto', sans-serif;
-font-size: 14px;
-font-weight: 500;
-
-
-border-radius: 6px;
-border:1px solid #eaecef;
-padding: 5px 16px; 
-line-height: 20px;
-white-space: nowrap;
-vertical-align: middle;
-cursor: pointer;
-
+    margin-top: 20px;
+    width: 286px;
+    height: 35px;
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    border:1px solid #eaecef;
+    padding: 5px 16px; 
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
 }
 
 .loginForm button:hover{
-background-color:#22863a;
+    background-color:#22863a;
 }

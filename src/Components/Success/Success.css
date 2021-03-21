@@ -1,0 +1,25 @@
+.mainDivSuccess{
+    text-align: center;
+}
+
+.mainDivSuccess h2{
+    margin-top: 0px;
+}
+
+.mainDivSuccess button{
+    border: 3px solid #3f996c;
+    padding: 10px;
+    text-align: center;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    color: black;
+    font-size: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+  
+.mainDivSuccess button:hover {
+    transition: 0.4s;
+    background-color: #3f996c;
+    color: white;
+}

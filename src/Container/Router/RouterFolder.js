@@ -2,14 +2,19 @@ import React from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import HomePage from '../HomePage/HomePage'
 import ContactMeContainer from '../ContactMeContainer/ContactmeContainer'
+import Error from '../../Components/Error/Error'
+import Success from '../../Components/Success/Success'
 
 const RouterFolder = () => {
 
     return(
         <Router>
             <Switch>
-                <Route path='/contact' exact component={ContactMeContainer}/>
-                <Route path='/' component={HomePage} />
+                <Route path='/contact' component={ContactMeContainer}/>
+                <Route path='/success' component={Success} />
+                <Route path='/' exact component={HomePage} />
+                <Route component={Error} />
+
             </Switch>
         </Router>
     )
