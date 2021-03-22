@@ -17,7 +17,7 @@ const ContactMe = () => {
               console.log(error.text);
           });
           e.target.reset()
-          history.push('/success')
+          history.push('/react-portfolio/success')
 
       }
 

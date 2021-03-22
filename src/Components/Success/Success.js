@@ -14,7 +14,7 @@ const Success = () => {
                 <img height='350' src={SuccessLogo} alt="succes logo"></img>
                 <h2>Message received. Thanks</h2>
                 <p>I will in touch with you shortly</p>
-                <button onClick={() => history.push('/')} >Back To HomePage</button>
+                <button onClick={() => history.push('/react-portfolio/')} >Back To HomePage</button>
             </div>         
         </seccion>
         

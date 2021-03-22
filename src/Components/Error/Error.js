@@ -13,7 +13,7 @@ const Error = () => {
             <div>
                 <img src={ErrorLogo} alt="error logo"></img>
                 <h2>Page not found!</h2>
-                <button onClick={() => history.push('/')} >Go To HomePage</button>
+                <button onClick={() => history.push('/react-portfolio/')} >Go To HomePage</button>
             </div>         
         </seccion>
         
