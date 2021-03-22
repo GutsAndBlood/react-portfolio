@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -13,7 +14,7 @@
 }
 
 .homeMainDiv p{
-    width: 600px;
+    width: 50%;
     text-align: center;
 }
 
