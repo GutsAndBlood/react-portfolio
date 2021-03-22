@@ -8,7 +8,7 @@ const ContactMeContainer = () =>{
 
     return(
         <div className="ContactMeMain" >
-            <Header AboutMe={'/#aboutMeNav'}/>
+            <Header AboutMe={'/react-portfolio/#aboutMeNav'}/>
             <img className="ContactMeLogo" src={LogoHappy} alt="happy avatar"></img>
             <ContactMe/>
         </div>

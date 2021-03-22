@@ -10,7 +10,7 @@ const Header = (props) => {
         <header className="mainDivHeader">
            <a href='/react-portfolio/'> <img src={Logo} className='mainLogo' alt='logo'/></a> 
 
-           <Link to={props.AboutMe} className='aboutMeHeader'>About me</Link> 
+           <a to={props.AboutMe} className='aboutMeHeader'>About me</a> 
            <Link to="/react-portfolio/contact" className='contact'>Contact</Link> 
         </header>
     )

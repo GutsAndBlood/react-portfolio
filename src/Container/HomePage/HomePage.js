@@ -10,7 +10,7 @@ const HomePage = () => {
 
     return (
         <div>
-            <Header AboutMe={'#aboutMeNav'}/>
+            <Header AboutMe={'/react-portfolio/#aboutMeNav'}/>
             <AvatarCom/>
             <Home/>
             <Callme/>
