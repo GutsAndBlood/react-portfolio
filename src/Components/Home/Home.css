@@ -1,10 +1,27 @@
 .aboutMe{
     margin-top: 10px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .desktop{
-    height: 325px;
+    width: 32.5%;
+}
+
+@media (min-width: 1500){
+    .desktop{ 
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 600){
+    .desktop{
+    
+        width: 40%;
+    }
+
 }
 
 .desciption{
