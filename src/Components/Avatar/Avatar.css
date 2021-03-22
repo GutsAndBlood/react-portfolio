@@ -1,10 +1,22 @@
 .homeMainDiv{
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 50px;   
+    margin-bottom: 50px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .homeMainDiv h1{
+    margin-bottom: 0px;
     font-size: 36px;
+}
+
+.homeMainDiv p{
+    width: 600px;
+    text-align: center;
+}
+
+.homeMainDiv .avatarSize{
+    height: 280px;
 }

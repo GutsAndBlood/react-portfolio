@@ -40,7 +40,7 @@ const ContactMe = () => {
                         
                         <div>
                             <label>Your Message Here
-                                <textarea name="textarea" rows="6" cols="50" name="message" required/>
+                                <textarea rows="6" cols="50" name="message" required/>
                             </label>
                         </div>
                         

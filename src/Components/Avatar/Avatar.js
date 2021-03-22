@@ -13,7 +13,7 @@ const AvatarCom = () => {
             <h1> &lt; Hello world /&gt;</h1>
             <p>I want to be part of a team and consolidate professionally in a company where personal achievements and performance are recognized,
             in addition to allowing opportunities for personal and professional development.</p>
-            <HoverImage src={Avatar} alt="avatar" hoverSrc={AvatarWink}/>
+            <HoverImage className="avatarSize" src={Avatar} alt="avatar" hoverSrc={AvatarWink}/>
         </section>
     )
     

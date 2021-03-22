@@ -1,35 +1,28 @@
 .mainDivHeader{
-    margin-top: 10px;
-   display: relative;
+   margin-top: 10px;
    height: 100px;
-   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
 }
 
 .mainLogo{
-    position: absolute;
     height: 100px;
     width: 100px;
-    left: 22.5%; 
 }
 
 
 .aboutMeHeader{
-    position: absolute;
     height: 20px;
     text-decoration: none;
     color: #0d91b3;
-    right: 25%;
-    top: 10%;
-
+    padding-right: 20px;
 }
 
 
 .contact{
-    position: absolute;
     height: 20px;
     text-decoration: none;
     color: #0d91b3;
-    right: 17.5%;
-    top: 10%;
-
 }
