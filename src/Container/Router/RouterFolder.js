@@ -10,9 +10,9 @@ const RouterFolder = () => {
     return(
         <Router>
             <Switch>
-                <Route path='/contact' component={ContactMeContainer}/>
-                <Route path='/success' component={Success} />
-                <Route path='/' exact component={HomePage} />
+                <Route path='/react-portfolio/contact' component={ContactMeContainer}/>
+                <Route path='/react-portfolio/success' component={Success} />
+                <Route path='/react-portfolio/' exact component={HomePage} />
                 <Route component={Error} />
 
             </Switch>
