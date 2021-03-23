@@ -80,12 +80,13 @@
         font-size:4vw;
         margin-bottom: 0px;
         margin-top: 50px;
-        width: 70%;
+        width: 80%;
     }
     
     .desciption p{
         width: 60%;
-        font-size: 3vw;
+        font-size: 3.5vw;
+        margin-top: 25px;
     }
     
 
@@ -95,7 +96,7 @@
         background-color: white;
         border-radius: 10px;
         border: 2px solid #d1d5da;
-        height: 950px;
+        height: 1050px;
         padding: 10px; 
         text-align: center;  
     }
