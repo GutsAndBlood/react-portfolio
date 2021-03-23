@@ -63,7 +63,7 @@
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 500px){
     .desktop{
         width: 70%;
     }
@@ -84,8 +84,8 @@
     }
     
     .desciption p{
-        width: 80%;
-        font-size: 2.5vw;
+        width: 60%;
+        font-size: 3vw;
     }
     
 
@@ -95,7 +95,7 @@
         background-color: white;
         border-radius: 10px;
         border: 2px solid #d1d5da;
-        height: 820px;
+        height: 950px;
         padding: 10px; 
         text-align: center;  
     }
