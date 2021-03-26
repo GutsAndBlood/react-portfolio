@@ -24,21 +24,21 @@ const Home = () => {
                     <div className="desciptionSkillsItems">
                         <img src={MobileDev} alt="phone"/>
                         <h3>Mobile Development</h3>
-                        <p>I have worked in a couple of apis on my own. I&apos;m curious about this and can&apos;t wait to dig into it.</p>
+                        <p className="triplePara">I have worked in a couple of apis on my own. I&apos;m curious about this and can&apos;t wait to dig into it.</p>
                         <p className="languageAndTools">Languages and tools I&apos;ve learned and used</p>
                         <p>JavaScrip, React Native, Expo</p>
                     </div>
                     <div className="desciptionSkillsItems">
                         <img src={WebDev} alt="web icon"/>
                         <h3>Front-end Development</h3>
-                        <p>My main path, I have worked mainly as a front-end developer, I like to bring my ideas to life in the browser.</p>
+                        <p className="triplePara">My main path, I have worked mainly as a front-end developer, I like to bring my ideas to life in the browser.</p>
                         <p className="languageAndTools">Languages and tools I&apos;ve learned and used</p>
                         <p>JavaScrip, Html, Css, React, Redux</p>
                     </div>
                     <div className="desciptionSkillsItems">
                         <img src={BackDev} alt="backend icons"/>
                         <h3>Back-end &amp; others</h3>
-                        <p>Technologies that I&apos;ve used in my journey, some of them are crucial in my day to day, others are eager to use them again.</p>
+                        <p className="triplePara">Technologies that I&apos;ve used in my journey, some of them are crucial in my day to day, others are eager to use them again.</p>
                         <p className="languageAndTools">Languages and tools I&apos;ve learned and used</p>
                         <p>Nodejs, Flask, Git, Linux, MongoDB, SQL</p>
                     </div>
