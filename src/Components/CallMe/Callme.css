@@ -56,6 +56,8 @@
     .callMeFlex h3{
         font-size:4vw;
         margin-left: 10px;
+        display: none;
+        
     }
     
     .callMeFlex p{

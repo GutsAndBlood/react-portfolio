@@ -21,3 +21,12 @@
 .homeMainDiv .avatarSize{
     height: 280px;
 }
+
+
+@media (min-width: 1500px){
+    .homeMainDiv p{
+        width: 35%;
+        text-align: center;
+    }
+
+}

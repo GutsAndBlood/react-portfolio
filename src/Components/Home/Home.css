@@ -28,6 +28,7 @@
 .desciption p{
     padding-right: 250px;
     padding-left: 250px;
+    text-align:center;
 }
 
 .desciptionSkillsMainDiv{
@@ -121,7 +122,13 @@
 
 @media (min-width: 1500px){
     .desktop{ 
-        width: 27.5%;
+        width: 25%;
+    }
+
+    
+    .desciption p{
+        padding-right: 500px;
+        padding-left: 500px;
     }
 
 }
