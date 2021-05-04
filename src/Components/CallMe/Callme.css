@@ -33,7 +33,33 @@
     color: white;
 }
 
-@media (max-width: 500px){
+@media (max-width: 1024px){
+
+    .callMeBox{    
+        background-color: #005f6c;
+        border-radius: 5px;
+        width: 75%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: -30px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .callMeBox{
+        
+        background-color: #005f6c;
+        border-radius: 5px;
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: -30px;
+    }
+
+}
+
+@media (max-width: 540px){
 
     .callMeBox{
         
