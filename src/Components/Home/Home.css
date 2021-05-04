@@ -132,6 +132,40 @@
 }
 
 
+@media (max-width: 414px){
+    .desciption p{
+        width: 80%;
+        font-size: 3.2vw;
+        margin-top: 25px;
+        text-align:center;  
+    }
+
+    .desciptionSkills{
+        height: 800px;
+    }
+}
+
+@media (max-width: 375px){
+
+    .desciption h3{
+        font-size:4.2vw;
+    }
+
+    .desciption p{
+        width: 80%;
+        font-size: 3.5vw;
+        margin-top: 25px;
+        text-align:center;  
+    }
+
+    .desciptionSkills{
+        height: 800px;
+    }
+
+}
+
+
+
 @media (min-width: 1500px){
     .desktop{ 
         width: 25%;
