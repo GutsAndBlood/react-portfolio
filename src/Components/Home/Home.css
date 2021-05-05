@@ -63,17 +63,16 @@
     font-size: 15px;
 }
 
-
-
-@media (max-width: 768px){
+@media (max-width: 1125px){
     .desciption p{
-        padding-right: 70px;
-        padding-left: 70px;
+        padding-right: 20px;
+        padding-left: 20px;
         text-align:center;
+        font-size: 2vw;
     }
     
     .desciptionSkills img{
-    height: 50px;
+        height: 50px;
     }
     .desciptionSkills{
         font-size: 13px;
@@ -82,55 +81,59 @@
 
 }
 
-@media (max-width: 540px){
-    .desktop{
-        width: 70%;
-    }
-    
-    .desciption h3{
-        font-size:4vw;
-        margin-bottom: 0px;
-        margin-top: 50px;
-        width: 80%;
-    }
-    
+
+@media (max-width: 768px){
     .desciption p{
-        width: 80%;
-        font-size: 3vw;
-        margin-top: 25px;
-        text-align:center;  
-    }
-    
-
-    .desciptionSkills{
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        border-radius: 10px;
-        border: 2px solid #d1d5da;
-        height: 1050px;
-        padding: 10px; 
-        text-align: center;  
-    }
-    
-    .desciptionSkills img{
-        height: 60px;
-        justify-content: center;
-    }
-    
-    .languageAndTools{
-        color: #52c0e9;
-        font-size: 15px;
-    }
-
-    .desciptionSkillsItems{
-        width: 80%;
-        height: 100%;
-        margin: auto;
+        padding-right: 70px;
+        padding-left: 70px;
+        text-align:center;
+        font-size: 1.8vw;
     }
 
 }
 
+@media (max-width: 649px){
+
+    .desciption p{
+        margin-top: 25px;
+
+    }
+    .desciption h3{
+        font-size: 3.5vw;
+    }
+
+    .desciptionSkills{
+        font-size: 12px;
+        width: 85%;
+    }
+}
+
+@media (max-width: 540px){
+
+    .desciption h3{
+        font-size:4vw;
+    }
+
+    .desciption p{
+        width: 80%;
+        font-size: 2.5vw;
+        margin-top: 25px;
+        text-align:center;  
+    }
+
+    .desciptionSkills{
+        display: flex;
+        flex-direction:column;
+        height: 780px;
+        font-size: 12px;
+        width: 50%;
+    }
+
+    .desciptionSkillsItems{
+        width: 100%;
+    }
+
+}
 
 @media (max-width: 414px){
     .desciption p{
@@ -148,18 +151,19 @@
 @media (max-width: 375px){
 
     .desciption h3{
-        font-size:4.2vw;
+        font-size:4vw;
     }
 
     .desciption p{
-        width: 80%;
-        font-size: 3.5vw;
+        width: 82.5%;
+        font-size: 3vw;
         margin-top: 25px;
         text-align:center;  
     }
 
     .desciptionSkills{
-        height: 800px;
+        height: 850px;
+        width: 60%;
     }
 
 }

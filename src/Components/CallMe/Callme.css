@@ -33,6 +33,31 @@
     color: white;
 }
 
+
+@media (min-width: 1500px){
+
+    .callMeBox{    
+        background-color: #005f6c;
+        border-radius: 5px;
+        width: 70%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: -30px;
+    }
+}
+
+@media (max-width: 1200px){
+
+    .callMeBox{    
+        background-color: #005f6c;
+        border-radius: 5px;
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: -30px;
+    }
+}
+
 @media (max-width: 1024px){
 
     .callMeBox{    
@@ -40,6 +65,19 @@
         border-radius: 5px;
         width: 75%;
         margin: auto;
+        margin-top: 100px;
+        margin-bottom: -30px;
+    }
+}
+
+@media (max-width: 905px){
+
+    .callMeBox{       
+        background-color: #005f6c;
+        border-radius: 5px;
+        width: 90%;
+        margin: auto;
+        font-size: 2vw;
         margin-top: 100px;
         margin-bottom: -30px;
     }
@@ -55,6 +93,7 @@
         margin: auto;
         margin-top: 100px;
         margin-bottom: -30px;
+        font-size: 1.8vw;
     }
 
 }
